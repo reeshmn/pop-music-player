@@ -123,17 +123,7 @@ public class PopMain extends AppCompatActivity implements NavigationView.OnNavig
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
 
-        if (requestCode == REQUEST_CODE) {
-            if (grantResults[0] == PackageManager.PERMISSION_DENIED) {
-                ActivityCompat.requestPermissions(PopMain.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}
-                        , REQUEST_CODE);
-
-            }
-
-        } else {
-            musicFiles = getAllAudio(this);
-            initViewPager();
-        }
+        
 
     }
 
