@@ -2,7 +2,21 @@
     <string name="app_name">Pop Music Player</string>
 
 
-   
+    <string name="home">Home</string>
+    <string name="reward">Reward</string>
+    <string name="account">Account</string>
+    <string name="playlist">PlayList</string>
+    <string name="singup_login">SingUp/Login</string>
+    <string name="settings">Settings</string>
+    <string name="invite_earn">Invite Earn</string>
+    <string name="description">Discription</string>
+    <string name="admob_app_id">ca-app-pub-9950919515763674~5971155676</string>
+    <string name="admob_native_ad_id">ca-app-pub-9950919515763674/6747376250</string>
+    <string name="admob_test_native_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_test_ad_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="devlopment">We Are Working On This</string>
+    <string name="coming_soon">COMMING SOON</string>
+    <string name="feedback">FeedBack</string>
     <string name="video_ad">ca-app-pub-9950919515763674/3504064968</string>
     <string name="admob_test_video_ad">ca-app-pub-3940256099942544/5224354917</string>
 
