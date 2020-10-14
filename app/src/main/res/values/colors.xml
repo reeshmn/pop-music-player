@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#f2f5f8</color>
+    <color name="popmain">#ff9a9e</color>
+    <color name="lightwhite">#f5f5f5</color>
+    <color name="mainhomeback">#f2f5f8</color>
+    <color name="textColor">#232F34</color>
+    <color name="pop_back">#f1E9CE</color>
+    <color name="black">#1B1E23</color>
+    <color name="progress_regiter">#EED428</color>
+
+
+
+
+</resources>
