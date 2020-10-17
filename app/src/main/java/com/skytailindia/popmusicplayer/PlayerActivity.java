@@ -205,54 +205,7 @@ public class PlayerActivity extends AppCompatActivity {
         nextThread.start();
     }
 
-    private void nextBtnClicked() {
-        if (mediaPlayer.isPlaying()) {
-            mediaPlayer.stop();
-            mediaPlayer.release();
-            position = ((position + 1) % listSongs.size());
-            uri = Uri.parse(listSongs.get(position).getPath());
-            mediaPlayer = MediaPlayer.create(getApplicationContext(), uri);
-            metaData(uri);
-            song_name.setText(listSongs.get(position).getTitle());
-            artist_name.setText(listSongs.get(position).getArtist());
-            PlayerActivity.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    if (mediaPlayer != null) {
-                        int mCurrentPosition = mediaPlayer.getCurrentPosition() / 1000;
-                        seekBar.setProgress(mCurrentPosition);
-
-
-                    }
-                    handler.postDelayed(this, 1000);
-                }
-            });
-            playpauseBtn.setImageResource(R.drawable.ic_pause_black_24dp);
-            mediaPlayer.start();
-        } else {
-            mediaPlayer.stop();
-            mediaPlayer.release();
-            position = ((position + 1) % listSongs.size());
-            uri = Uri.parse(listSongs.get(position).getPath());
-            mediaPlayer = MediaPlayer.create(getApplicationContext(), uri);
-            metaData(uri);
-            song_name.setText(listSongs.get(position).getTitle());
-            artist_name.setText(listSongs.get(position).getArtist());
-            PlayerActivity.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    if (mediaPlayer != null) {
-                        int mCurrentPosition = mediaPlayer.getCurrentPosition() / 1000;
-                        seekBar.setProgress(mCurrentPosition);
-
-
-                    }
-                    handler.postDelayed(this, 1000);
-                }
-            });
-            playpauseBtn.setImageResource(R.drawable.ic_play_arrow_black_24dp);
-        }
-    }
+   
 
     private void playThreadBtn() {
         playThread = new Thread() {
