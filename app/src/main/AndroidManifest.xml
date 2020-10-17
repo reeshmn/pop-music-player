@@ -17,36 +17,34 @@
         <activity android:name=".Register" />
         <activity
             android:name=".PlayerActivity"
-            android:hardwareAccelerated="true"
-            android:screenOrientation="portrait" />
+            android:hardwareAccelerated="true" />
         <activity
-            android:name=".FeedBack"
-            android:screenOrientation="portrait" />
+            android:name=".FeedBack" />
         <activity
             android:name=".Setting"
-            android:screenOrientation="portrait" />
+            />
         <activity
             android:name=".Invite"
-            android:screenOrientation="portrait" />
+            />
         <activity
             android:name=".Account"
-            android:screenOrientation="portrait" />
+             />
         <activity
             android:name=".RewardScreen"
-            android:screenOrientation="portrait" />
+            />
         <activity
             android:name=".PlayList"
-            android:screenOrientation="portrait" />
+            />
         <activity
             android:name=".Login_Singup"
-            android:screenOrientation="portrait" />
+            />
         <activity
             android:name=".PopMain"
             android:hardwareAccelerated="true"
-            android:screenOrientation="portrait" />
+             />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait">
+           >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
